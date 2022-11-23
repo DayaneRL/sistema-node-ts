@@ -1,0 +1,12 @@
+{{>partials/header}}
+
+<h3>Olá {{firstName}} {{lastName}}. 
+    {{#showOld}}
+        Como vai a vida?
+    {{/showOld}}
+    {{^showOld}}
+        Beleza, veio!
+    {{/showOld}}
+</h3>
+
+{{>partials/footer}}
